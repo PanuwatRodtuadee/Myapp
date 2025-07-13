@@ -1,21 +1,19 @@
-<body>
-    <div class = "logoimg">
-        <img src="/workshopNoShadow.png" alt="">
-            <div class = "MainFunc">
-                <button><a href="/Inventory">Inventory</a></button>
-                <button><a href="/Borrow">Borrow</a></button>
-                <button><a href="/Return">Return</a></button>
-            </div>
-        <p style="#Background"></p>
-    </div>
-</body>
+<div class = "logoimg">
+  <!-- <img src="/workshopNoShadow.png" alt=""> -->
+      <div class = "MainFunc">
+          <button class="bg-red-500"><a href="/inventory">Inventory</a></button>
+          <button><a href="/borrow">Borrow</a></button>
+          <button><a href="/return">Return</a></button>
+      </div>
+  <!-- <p style="#Background"></p> -->
+</div>
 <!-- <div>
   <input type="text" bind:value = {inputname}>
   <button on:click={changename}> Change Name</button>
 </div> -->
 <style>
   body{
-    background-color: #FFF8F2;
+    /* background-color: #FFF8F2; */
   }
   /* .img-container img{
     width: 80px;
